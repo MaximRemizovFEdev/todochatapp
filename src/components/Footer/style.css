@@ -1,0 +1,49 @@
+.footer {
+    background-color: #F8F8F8;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.footer .logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer .logo,
+.footer .links {
+    width: 50%;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .links .social a,
+.footer .links .downloads a {
+    outline: none;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.footer .policy {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+.footer .policy a {
+    outline: none;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #8D8D8E;
+}

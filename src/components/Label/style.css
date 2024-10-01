@@ -1,0 +1,31 @@
+.label {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 2px 10px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-right: 6px;
+}
+
+.label span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.label.blue {
+    background-color: #2967FF;
+}
+
+.label.green {
+    background-color: #58CF18;
+}
+
+.label.orange {
+    background-color: #FFA601;
+}
+
+.label.pink {
+    background-color: #FF7CB4;
+}
